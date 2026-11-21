@@ -1,4 +1,4 @@
-# Akshay Avhad · Engineering portfolio
+# Akshay Avhad, PhD · Engineering portfolio
 
 A static GitHub Pages portfolio for industrial automation, digitalisation and autonomous manufacturing. The site uses HTML, CSS and vanilla JavaScript. The only external presentation dependency is the optional Google Fonts stylesheet. System fonts are available as a fallback.
 
