@@ -161,22 +161,12 @@ img { display: block; max-width: 100%; }
 .hero-actions { margin-top: 1.6rem; }
 .hero-links { margin-top: .65rem; column-gap: 1.15rem; }
 .hero-figure { overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 1rem; box-shadow: var(--shadow); }
-.hero-photo { position: relative; height: clamp(19rem, 27.1vw, 26rem); isolation: isolate; }
-.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 56% 51%; }
-.portrait-figure { width: min(100%, 23.5rem); justify-self: end; }
-.portrait-photo { height: auto; aspect-ratio: 1; background: #f8f8f8; }
-.portrait-photo img { object-position: center 34%; }
-.portrait-photo::after { display: none; }
-.portrait-caption { display: grid; gap: .12rem; padding: 1rem 1.2rem; border-top: 1px solid var(--line); }
-.portrait-caption strong { font-size: .94rem; }
-.portrait-caption span { font-size: .73rem; color: var(--muted); }
-.hero-photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg, #0715196b, transparent 30%, transparent 80%, #07151960);
-}
+.production-figure { width: 100%; justify-self: end; }
+.production-visual { display: grid; place-items: center; aspect-ratio: 6 / 5; padding: 1rem; background: var(--muted-surface); }
+.production-visual img { width: 100%; height: auto; object-fit: contain; }
+.production-caption { display: grid; gap: .25rem; padding: 1rem 1.2rem; border-top: 1px solid var(--line); }
+.production-caption strong { font-size: 1rem; }
+.production-caption span { font-size: .875rem; color: var(--muted); }
 .figure-label {
   position: absolute;
   z-index: 1;
@@ -417,9 +407,7 @@ img { display: block; max-width: 100%; }
   .hero-grid, .about-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 1.6rem; }
   .hero-copy h1 { font-size: clamp(2.95rem, 8vw, 4.2rem); }
-  .hero-photo { height: clamp(16rem, 50vw, 25rem); }
-  .portrait-figure { justify-self: center; width: min(100%, 24rem); }
-  .portrait-photo { height: auto; }
+  .production-figure { justify-self: center; max-width: 34rem; }
   .automation-projects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .soft-skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .expertise-grid { grid-template-columns: 1fr; }
@@ -444,8 +432,6 @@ img { display: block; max-width: 100%; }
   .details-content { padding: 1rem; }
   .hero-pills { margin-top: 1.2rem; gap: .43rem; }
   .hero-pills a { min-height: 2.8rem; }
-  .hero-photo { height: clamp(13.5rem, 62vw, 19rem); }
-  .portrait-photo { height: auto; }
   .automation-projects { grid-template-columns: 1fr; }
   .figure-flow { min-height: 3.25rem; font-size: .68rem; }
   .research-heading { display: block; }
