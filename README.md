@@ -21,4 +21,4 @@ GitHub's [publishing source guide](https://docs.github.com/en/pages/getting-star
 
 Open `docs/index.html` in a browser for a quick preview. To preview over HTTP, run `python -m http.server 8000 --bind 127.0.0.1 --directory docs` from the repository root and open [the local preview](http://127.0.0.1:8000/). Stop the server with Ctrl+C.
 
-The Pages source contains the public CV, the supplied professional portrait and a conceptual Swarm Production factory illustration. The work section includes two prototype video links and brief automation project summaries. The original CVs, reference letters and publication PDFs are kept outside `docs/` and are not published.
+The Pages source contains the public CV, a smart manufacturing profile illustration in the hero, the supplied professional portrait and a conceptual Swarm Production factory illustration. The work section includes two prototype video links and brief automation project summaries. The original CVs, reference letters and publication PDFs are kept outside `docs/` and are not published.

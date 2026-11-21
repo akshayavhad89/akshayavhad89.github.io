@@ -1,0 +1,11 @@
+Mode: built-in ImageGen
+Asset: docs/assets/profile-smart-manufacturing.jpg
+
+Use case: stylized-concept.
+Asset type: final illustration for the right-hand hero card of an engineering portfolio, landscape 6:5 composition.
+Primary request: depict an automation, digitalisation and applied AI specialist's work as one coherent connected smart manufacturing system. The profile combines industrial control and robotics across IT and OT, hands-on software and technical leadership, pioneering research into self-organising production, digital twins, data engineering and multi-agent coordination.
+Scene and subjects: an elegant isometric miniature factory on a single light platform. Three modular manufacturing stations with realistic industrial robot arms and compact control cabinets, two small autonomous mobile transport robots carrying components along flexible branching routes. Above the factory, a restrained translucent blue wireframe digital twin mirrors one real robot workstation. Beside it, a compact floating data platform with abstract pipeline connections and a clean analytics panel using simple chart shapes. Several small connected agent nodes form a peer-to-peer network linking different workstations, suggesting distributed coordination rather than one central command. The physical equipment and digital layer must read as one system, not a collage of icons.
+Style: polished editorial technical 3D illustration, precise geometry, sophisticated engineering publication quality, matte surfaces, delicate linework and soft ambient shadows. Clear recognizable silhouette at about 420px wide.
+Palette: match a cool professional portfolio: very pale blue-grey background #edf2f6, navy and slate blue structures, white/silver equipment, restrained cyan data links, tiny muted copper accents. Balanced contrast, no neon glow.
+Composition: entire system centered and visible, fill most of frame with a small safe margin, three-quarter elevated view. Harmonious open spacing, no cropping, no giant empty areas, no individual human portrait. Solid opaque background.
+Constraints: no text, letters, numbers, labels, logos, watermarks, human-like robots, brains, lightbulbs or generic AI symbols. This is a conceptual systems illustration, not a claim to depict a specific built prototype.
